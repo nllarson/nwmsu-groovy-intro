@@ -1,0 +1,4 @@
+// assign a closure to variable
+def shout = { String s -> println s.toUpperCase() }
+shout('Steve')
+> 'STEVE'
